@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Nossaequipe"
+            android:icon="@drawable/profilee"
+            android:title="@string/NossaEquipe" />
+        <item
+            android:id="@+id/mapa"
+            android:icon="@drawable/map"
+            android:title="@string/Map" />
+        <item
+            android:id="@+id/sobre"
+            android:icon="@drawable/aboutt"
+            android:title="@string/Sobre" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/telefone"
+                android:icon="@drawable/phone"
+                android:title="@string/Contato" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/web"
+                android:title="@string/Sobre" />
+        </menu>
+    </item>
+
+</menu>
